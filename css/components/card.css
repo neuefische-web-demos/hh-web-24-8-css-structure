@@ -1,0 +1,35 @@
+.card {
+  padding: 20px;
+  border-radius: var(--br-md);
+  border: solid 2px var(--color-clownfish);
+  width: 350px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card--turquoise {
+  --color-clownfish: #00ffbf;
+}
+
+.highlight {
+  color: var(--color-clownfish);
+  font-size: 1.5rem;
+}
+
+.definition {
+  max-width: 300px;
+  border: dashed 2px var(--color-clownfish);
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.tag {
+  background-color: var(--color-stone-grey);
+  color: #282828;
+  padding: 10px;
+  border-radius: 5px;
+}

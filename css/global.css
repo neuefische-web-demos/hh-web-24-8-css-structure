@@ -1,0 +1,31 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --color-clownfish: #ff4a11;
+  --color-stone-grey: #9ca3af;
+  --color-sky-grey: #cccfd5;
+  --color-midnight: #282828;
+  --color-text: 255 240 230;
+  --br-md: 12px;
+}
+
+body {
+  font-family: system-ui;
+  color: rgb(var(--color-text) / 0.6);
+  background-color: var(--color-midnight);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}

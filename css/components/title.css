@@ -1,0 +1,15 @@
+#title {
+  color: green;
+}
+
+.extravagant {
+  color: #f311ff;
+}
+
+h1 {
+  color: #ff4a11;
+}
+
+h1 {
+  color: #ff4a11 !important;
+}
